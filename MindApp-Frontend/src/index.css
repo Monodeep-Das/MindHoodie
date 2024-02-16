@@ -1,0 +1,51 @@
+
+
+body{
+    margin: 0;
+    background-image: url(./background.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color: rgb(29, 29, 29);
+}
+.bottom-div {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.8;
+  }
+#home-main{
+    background-color: white;
+    opacity: 50%;
+    height: 80vh;
+    width: 100vw;
+
+}
+
+
+.gradient-container {
+    /* Change the color codes as per the Tailwind CSS colors */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; /* Adjust the padding as per your requirement */
+}
+.emoji-container{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selected-emoji-message{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
